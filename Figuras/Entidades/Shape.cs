@@ -9,6 +9,7 @@ namespace Figuras.Entidades
     {
         public Cor Cor { get; set; }
 
+
         public Shape(Cor cor) 
         {
             Cor = cor;

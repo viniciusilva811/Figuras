@@ -13,8 +13,8 @@ namespace Figuras.Entidades
 
         public Retangulo(double largura, double altura, Cor cor) : base(cor) 
         {
-            Largura = Largura;
-            Altura = Altura;
+            Largura = largura;
+            Altura = altura;
         }
 
         public override double Area()
